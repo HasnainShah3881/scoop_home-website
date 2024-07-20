@@ -1,0 +1,260 @@
+
+
+
+.imgs{
+    background-image:url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+select{
+    border-radius: 20px;
+    background-color: rgb(79, 8, 146);
+    font-weight: bold;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+#nav{
+    font-weight: bold;
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+:hover#nav{
+    background-color: orange;
+    border-radius: 20px;
+}
+#logo{
+    padding-left: 300px;
+    padding-top:30px;
+}
+.heading01{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+.heading02{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#text{
+    margin-left: 50px;
+    color: rgb(108, 30, 181);
+}
+.para{
+    font-size: 30px;
+}
+.input{
+    width: 40%;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    border: 2px solid rgb(108, 30, 181);
+    margin-top: 35px;
+
+}
+#button{
+    height: 60px;
+    width: 150px;
+    background-color:rgb(108, 30, 181);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+#last{
+    margin-top: 30px;;
+}
+.bar{
+    height: 40px;
+display: flex;
+/* justify-content: end; */
+align-items: center;
+color: blueviolet;
+}
+img{
+    height: 100px;
+    border: none;
+}
+#col{
+    border:1px solid black;
+    border-radius: 35px;
+    font-size: 20px;
+    background-color: white;
+
+}
+#card{
+    
+    background-color: rgb(246, 219, 223);
+    padding-bottom: 50px;
+}
+ #row1{
+    gap: 55px;
+
+}
+#images{
+    margin-top: 10px;
+}
+#footer{
+    background-color: rgb(16, 1, 66);
+    height: 900px;
+    color: white;
+    /* te-color: white; */
+}
+.footerimg{
+    margin-top: 180px;
+    height: 120px;
+    
+}
+#white{
+    color: white;
+
+}
+ul{
+    list-style:none;
+}
+#footercol{
+    font-size: 20px;
+}
+#span{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+.form{
+    background-color:rgb(110, 43, 226) ;
+    width: 550px;
+    border-radius:30px;
+    height:650px;
+    margin-top: 60px;
+    /* border: 20px solid rgba(137, 43, 226, 0.306); */
+}
+.about_content_ul{
+    display: flex;
+    gap: 2px;
+    font-weight: 700;
+}
+#aboutUsSection{
+    color: black;
+    font-weight: 700;
+
+}
+.about_content_container{
+    /* padding: 60px; */
+}
+/* #top{
+    margin-top: 0px;
+    background-color: aquamarine;
+    padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+} */
+/* .portal{
+    display:flex;
+    flex-direction:;
+} */
+/* #border{
+    border: 1px solid rgb(108, 30, 181);
+    width: 50%;
+} */
+@media(max-width:767px){
+    .imgs{
+        background-image: none;
+        background-color: blueviolet;
+    }
+    #logo{
+    padding: 20px;
+    }
+    #text{
+    color: white;
+    margin-left: 2%;
+    margin-top: 35%;
+    }
+    .heading01{
+        font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px
+    }
+    .heading02{
+        font-size: 40px;
+    font-weight: bold;
+    margin-top: 25px;
+
+    }
+    .para{
+        font-size: 20px;
+        margin-top: 20px;
+}
+    #nav{
+        visibility: hidden;
+
+    }
+    select{
+        visibility: hidden;
+    }
+    img{
+        height: 80px;
+        margin-top: -60px;
+    }
+    .bar{
+        justify-content: end;
+        color: black;
+        margin-right: 10px;
+        font-size: 25px;
+        
+    }
+    input{
+        width:80%;
+        height: 50px;
+        font-size: 25px;
+        border: none;
+        border: 2px solid rgb(108, 30, 181);
+    
+    }
+    #border{
+        display: flex;
+
+    }
+    #button{
+        height: 50px;
+    margin-left: 0px;
+    margin-top: -10px;
+    width: 100px;
+    background-color: rgb(108, 30, 181);
+    color: white;
+    font-weight: bold;
+    }
+    .input{
+        margin-top: 15px;
+    }
+    .email{
+        margin-top: 20px;
+    }
+    #top{
+        margin-top: 25px;
+    }
+    #row1{
+        gap: 20px;
+    }
+    #images{
+        margin-top: 50px;
+    }
+    .footerimg{
+        margin-top: 5px;
+    }
+    }
+    
+
+
+
+
